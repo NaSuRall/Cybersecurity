@@ -1,0 +1,10 @@
+Nous avons par la suite analyser ce Malware : 
+
+Etape 1 : Installer PeStudio
+Etape 2 : Ouvrir Res.exe (Malware) avec PeStudio
+Etape 3 : Constater les différents problèmes rencontrés
+
+Nous avons pu constater les dégats sur la machine :
+  - Forte augmentation de la consommation de la RAM
+  - Score de 52/72 (ex : spyWare / keyLogger / trojan)
+  - imports (get current process, virtualprotect, getcurrentprocessId, getcurrentThread, virtualQuery, getAsyncKeyState, getKeyState)

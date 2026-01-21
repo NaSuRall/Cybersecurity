@@ -1,0 +1,2 @@
+Nous avons remarqué que le Malware crée un fichier.
+Pour trouver ce fichier, nous avons utiliser ProcessHacker et ProcessExplorer pour identifier le processus infecté.

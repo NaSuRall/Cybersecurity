@@ -1,0 +1,9 @@
+Nous avons créé une machine virtuelle grâce à Virtual Box avec Windows10 puis nous sommes allé sur le repo pour télécharger le Malware. 
+
+Nous l'avons installé sur la machine et tout a crash donc nous avons tout réinstallé en ajoutant plus de RAM.
+
+Nous avons contasté que le virus consomme beaucoup de puissance sur la machine.
+
+Nous allons procédé à une analyse sur le Malware dans les prochaines story.
+
+Nom du Malware : Res.exe

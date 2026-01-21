@@ -1,0 +1,24 @@
+Description clair des impacts : 
+Il existe un nouveau fichier nommé "xcopy.exe"
+
+Il crée un dossier `C:\WindSyst`
+- Chaîne trouvée : `mkdir C:\WindSyst`
+- Il copie ensuite plusieurs DLLs et exécutables dans ce dossier :
+  - `libgcc_s_dw2-1.dll`, `libstdc++-6.dll`, `Qt5Core.dll`, `Qt5Gui.dll`, etc.
+  - `Res.exe` et `Env.exe`
+
+Il installe une persistance
+- Clé registre :  
+  `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`, ce qui permet de lancer automatiquement Res.exe au démarrage
+
+Il utilise des composants Qt
+- Qt5Core, Qt5Gui, Qt5Widgets, Qt5Network → le malware a une interface ou communique en réseau
+- Plateformes Qt : `qwindows.dll`, `qoffscreen.dll`, `qminimal.dll`, il peut tourner en mode GUI ou headless
+
+Il interagit avec le fichier `logo.txt`
+- Chemin : `C:\WindSyst\logo.txt`
+- Peut être un fichier de configuration, un log, ou un vecteur d’injection
+
+- SHA256, Hash, Algorithm, peut vérifier l’intégrité, encoder des données, ou faire du fingerprinting
+
+- Possible accès au micro ou interaction avec des fichiers audio

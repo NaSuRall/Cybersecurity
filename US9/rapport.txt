@@ -1,0 +1,6 @@
+Ouvrir un terminal depuis le dossier du dump
+
+Faire cette commande : strings SYSTEM | grep -i usbstor -A 5
+
+Dans le résultat, on trouve : 
+  USBSTOR\Disk&Ven_SanDisk&Prod_Cruzer_Blade&Rev_1.00\4C530000281008116284&0 37HardwareID

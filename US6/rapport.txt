@@ -1,0 +1,9 @@
+Pour faire le dump de la mémoire vive, nous avons : 
+
+  - Nous avons tout d'abord installer DumpIt
+  - Puis on est aller dans le Powershell jusqu'a DumpIt.exe : C:\Users\theol\Desktop\Comae-Toolkit-v20230117\x64
+  - On a lancé dumpIt.exe avec la commande \DumpIt.exe
+  - On a eu le dump et la destination du fichier
+  - Nous avons installé PIP, puis installer volatility avec pip.
+  - Une fois que nous avons vérifier que tout était installé avec "vol -h", nous avons pu faire l'analyse avec la commande : vol -f "nom du dump" windows.pslist
+  - Nous avons donc pu avoir les resultat

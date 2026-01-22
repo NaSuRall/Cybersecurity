@@ -1,0 +1,29 @@
+Outils utilisés :
+
+FTK Imager : pour extraire les fichiers du registre Windows (SYSTEM, SOFTWARE)
+Registry Explorer : pour visualiser les clés et horodatages
+
+
+Artefacts extraits :
+
+SYSTEM : contient les clés USBSTOR, USB, MountedDevices
+SOFTWARE : utilisé pour corrélation utilisateur
+
+
+Analyse des artefacts USB :
+
+Première installation : 2026-01-21 13:27
+Dernière connexion : 2026-01-22 07:59
+
+
+""Chronologie des événements
+
+2026-01-20 14:32 — Installation initiale de la clé USB (USBSTOR + setupapi.dev.log)
+2026-01-21 — Activité utilisateur sur le poste (NTUSER.DAT)
+2026-01-22 09:15 — Dernière connexion de la clé USB (USB)
+2026-01-22 — Dump mémoire réalisé avec DumpIt""
+
+
+""La clé USB a été installée deux jours avant la date supposée de fuite.
+Elle a été reconnectée le jour même de l'acquisition mémoire.
+Les horodatages sont cohérents avec une activité potentiellement malveillante.""

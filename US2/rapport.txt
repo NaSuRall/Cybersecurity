@@ -5,4 +5,5 @@ Alors, nous avons procédé à l'écriture de ces commandes afin de récuperer l
 Commandes pour récuperer le Hash : Get-FileHash -Algorithm SHA256 "C:\Users\theol\Desktop\VIRUS\Res.exe"
 Résultat : 49F091ADE48890BFA22D2B455494BE95E52392C478B67E10626222B6AEE37E1E
 
-Par la suite, nous sommes allé sur VirusTotal puis nous avons renseigné le Hash et nous avons obtenu le resultat suivant : Inconnu
+Par la suite, nous sommes allé sur VirusTotal puis nous avons renseigné le Hash et nous avons obtenu le resultat suivant : 53/72
+
